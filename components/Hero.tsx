@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       className="relative h-screen bg-cover bg-center text-white"
-      style={{ backgroundImage: `url('/images/HeroPortadaPorolio.png')` }}
+      style={{ backgroundImage: `url('/images/HeroPortadaPorolio.webp')` }}
     >
       {/* overlay */}
       <div className="absolute inset-0 bg-black/50" />

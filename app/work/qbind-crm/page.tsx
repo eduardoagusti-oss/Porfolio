@@ -118,8 +118,8 @@ export default function CRMPage() {
           </div>
 
           <div className="mt-12 grid md:grid-cols-2 gap-8">
-            <img src="/images/CRMDashboard.png" className="rounded-xl" />
-            <img src="/images/PoliciesScreen.png" className="rounded-xl" />
+            <img src="/images/CRMDashboard.webp" className="rounded-xl" />
+            <img src="/images/PoliciesScreen.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -162,7 +162,7 @@ export default function CRMPage() {
           </div>
 
           <img
-            src="/images/Cover.png"
+            src="/images/Cover.webp"
             className="rounded-xl w-full"
           />
 

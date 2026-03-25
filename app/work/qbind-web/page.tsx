@@ -118,10 +118,10 @@ export default function QbindPage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/w1.png" className="rounded-xl" />
-            <img src="/images/w2.png" className="rounded-xl" />
-            <img src="/images/w3.png" className="rounded-xl" />
-            <img src="/images/w4.png" className="rounded-xl" />
+            <img src="/images/w1.webp" className="rounded-xl" />
+            <img src="/images/w2.webp" className="rounded-xl" />
+            <img src="/images/w3.webp" className="rounded-xl" />
+            <img src="/images/w4.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -143,7 +143,7 @@ export default function QbindPage() {
           </div>
 
           <img
-            src="/images/DesignSystem.png"
+            src="/images/DesignSystem.webp"
             className="w-full rounded-xl"
           />
 
@@ -159,8 +159,8 @@ export default function QbindPage() {
           </h2>
 
           <div className="space-y-10">
-            <img src="/images/About.png" className="rounded-xl" />
-            <img src="/images/Clients.png" className="rounded-xl" />
+            <img src="/images/About.webp" className="rounded-xl" />
+            <img src="/images/Clients.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -175,8 +175,8 @@ export default function QbindPage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/Responsive1.png" className="rounded-xl" />
-            <img src="/images/ResponsiveFonts.png" className="rounded-xl" />
+            <img src="/images/Responsive1.webp" className="rounded-xl" />
+            <img src="/images/ResponsiveFonts.webp" className="rounded-xl" />
           </div>
 
         </Container>

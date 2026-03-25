@@ -9,7 +9,7 @@ export default function DesignSystemPage() {
       {/* HERO */}
       <section
         className="h-[70vh] bg-cover bg-center relative text-white flex items-center"
-        style={{ backgroundImage: "url('/images/Cover2.png')" }}
+        style={{ backgroundImage: "url('/images/Cover2.webp')" }}
       >
         <div className="absolute inset-0 bg-black/50" />
 
@@ -94,10 +94,10 @@ export default function DesignSystemPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/DesignSystemColors.png" className="rounded-xl" />
-            <img src="/images/DesignSystemTypography.png" className="rounded-xl" />
-            <img src="/images/DesignSystemIcons.png" className="rounded-xl" />
-            <img src="/images/DesignSystemShadows.png" className="rounded-xl" />
+            <img src="/images/DesignSystemColors.webp" className="rounded-xl" />
+            <img src="/images/DesignSystemTypography.webp" className="rounded-xl" />
+            <img src="/images/DesignSystemIcons.webp" className="rounded-xl" />
+            <img src="/images/DesignSystemShadows.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -132,8 +132,8 @@ export default function DesignSystemPage() {
           </div>
 
           <div className="mt-12 grid md:grid-cols-2 gap-8">
-            <img src="/images/DesignSystemButtons.png" className="rounded-xl" />
-            <img src="/images/DesignSystemForm.png" className="rounded-xl" />
+            <img src="/images/DesignSystemButtons.webp" className="rounded-xl" />
+            <img src="/images/DesignSystemForm.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -153,8 +153,8 @@ export default function DesignSystemPage() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/DesignSystemTables.png" className="rounded-xl" />
-            <img src="/images/DesignSystemTootips.png" className="rounded-xl" />
+            <img src="/images/DesignSystemTables.webp" className="rounded-xl" />
+            <img src="/images/DesignSystemTootips.webp" className="rounded-xl" />
           </div>
 
         </Container>
@@ -176,8 +176,8 @@ export default function DesignSystemPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/DesignData.png" className="rounded-xl" />
-            <img src="/images/Data Analysis.png" className="rounded-xl" />
+            <img src="/images/DesignData.webp" className="rounded-xl" />
+            <img src="/images/Data Analysis.webp" className="rounded-xl" />
           </div>
 
         </Container>

@@ -8,7 +8,7 @@ export default function IAVPage() {
       {/* HERO */}
       <section
         className="h-[70vh] bg-cover bg-center relative text-white flex items-center"
-        style={{ backgroundImage: "url('/images/IAVhero.png')" }}
+        style={{ backgroundImage: "url('/images/IAVhero.webp')" }}
       >
         <Container>
           <div className="max-w-2xl">
@@ -111,7 +111,7 @@ export default function IAVPage() {
 
       <div>
         <img
-          src="/images/ecommerce-desktop-1.png"
+          src="/images/ecommerce-desktop-1.webp"
           className="rounded-xl w-full mb-3"
           alt="Marketplace flow"
         />
@@ -120,7 +120,7 @@ export default function IAVPage() {
 
       <div>
         <img
-          src="/images/ecommerce-desktop-1-1.png"
+          src="/images/ecommerce-desktop-1-1.webp"
           className="rounded-xl w-full mb-3"
           alt="Order tracking"
         />
@@ -128,7 +128,7 @@ export default function IAVPage() {
       </div>
       <div>
         <img
-          src="/images/Desktop - 2.png"
+          src="/images/Desktop - 2.webp"
           className="rounded-xl w-full mb-3"
           alt="Payment flow"
         />
@@ -187,12 +187,12 @@ export default function IAVPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <img
-              src="/images/iavHome.png"
+              src="/images/iavHome.webp"
               className="rounded-xl"
               alt="Initial full concept"
             />
             <img
-              src="/images/iavUpload.png"
+              src="/images/iavUpload.webp"
               className="rounded-xl"
               alt="Simplified MVP configurator"
             />
@@ -200,12 +200,12 @@ export default function IAVPage() {
           <br></br>
           <div className="grid md:grid-cols-2 gap-8">
             <img
-              src="/images/iavDatos.png"
+              src="/images/iavDatos.webp"
               className="rounded-xl"
               alt="Initial full concept"
             />
             <img
-              src="/images/iavMailCon.png"
+              src="/images/iavMailCon.webp"
               className="rounded-xl"
               alt="Simplified MVP configurator"
             />
@@ -296,7 +296,7 @@ export default function IAVPage() {
 
           <div className="grid md:grid-cols-1 gap-8">
             <img
-              src="/images/Arquitectura de Información - IAV Marketplace.png"
+              src="/images/Arquitectura de Información - IAV Marketplace.webp"
               className="rounded-xl"
               alt="Configurator UI screen 1"
             />

@@ -17,12 +17,12 @@ export const projects = [
     slug: "qbind-design-system",
     title: "Design System",
     desc: "Design System · Figma",
-    img: "/images/Cover.png",
+    img: "/images/Cover.webp",
   },
   {
     slug: "iav",
     title: "IAV Marketplace",
     desc: "UX/UI · 2022",
-    img: "/images/IAVThumbnail.png",
+    img: "/images/IAVThumbnail.webp",
   },
 ];
