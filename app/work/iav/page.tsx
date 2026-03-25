@@ -85,7 +85,7 @@ export default function IAVPage() {
             <div>
               <h3 className="font-semibold mb-2">Landing Page</h3>
               <p className="text-gray-600 text-sm">
-                 Entry point to explain the product, showcase value and guide users into the experience.
+                Entry point to explain the product, showcase value and guide users into the experience.
               </p>
             </div>
 
@@ -93,77 +93,77 @@ export default function IAVPage() {
               <h3 className="font-semibold mb-2"> Marketplace</h3>
               <p className="text-gray-600 text-sm">
                 Product discovery and browsing experience including artist content and customizable items.
-                
+
               </p>
             </div>
 
             <div>
               <h3 className="font-semibold mb-2">Payment Flow</h3>
               <p className="text-gray-600 text-sm">
-                 A complete checkout experience with integrated payment and order
+                A complete checkout experience with integrated payment and order
                 confirmation.
               </p>
             </div>
           </div>
 
-         {/* 🔥 3 imágenes */}
-    <div className="grid md:grid-cols-3 gap-6">
+          {/* 🔥 3 imágenes */}
+          <div className="grid md:grid-cols-3 gap-6">
 
-      <div>
-        <img
-          src="/images/ecommerce-desktop-1.webp"
-          className="rounded-xl w-full mb-3"
-          alt="Marketplace flow"
-        />
-      
-      </div>
+            <div>
+              <img
+                src="/images/ecommerce-desktop-1.webp"
+                className="rounded-xl w-full mb-3"
+                alt="Marketplace flow"
+              />
 
-      <div>
-        <img
-          src="/images/ecommerce-desktop-1-1.webp"
-          className="rounded-xl w-full mb-3"
-          alt="Order tracking"
-        />
-        
-      </div>
-      <div>
-        <img
-          src="/images/Desktop - 2.webp"
-          className="rounded-xl w-full mb-3"
-          alt="Payment flow"
-        />
-        
-      </div>
+            </div>
 
-    </div>
+            <div>
+              <img
+                src="/images/ecommerce-desktop-1-1.webp"
+                className="rounded-xl w-full mb-3"
+                alt="Order tracking"
+              />
+
+            </div>
+            <div>
+              <img
+                src="/images/Desktop - 2.webp"
+                className="rounded-xl w-full mb-3"
+                alt="Payment flow"
+              />
+
+            </div>
+
+          </div>
         </Container>
       </section>
 
       {/* CHALLENGE */}
-<section className="py-24">
-  <Container>
+      <section className="py-24">
+        <Container>
 
-    <h2 className="text-2xl font-semibold mb-6">
-      Product Challenge
-    </h2>
+          <h2 className="text-2xl font-semibold mb-6">
+            Product Challenge
+          </h2>
 
-    <p className="text-gray-600 max-w-3xl mb-8">
-      The broader concept solved many parts of the customer journey, but
-      it also introduced complexity in business model, operations and
-      development.
-    </p>
+          <p className="text-gray-600 max-w-3xl mb-8">
+            The broader concept solved many parts of the customer journey, but
+            it also introduced complexity in business model, operations and
+            development.
+          </p>
 
-    <ul className="list-disc pl-5 text-gray-600 space-y-2 max-w-3xl mb-12">
-      <li>Too many moving parts for an initial release</li>
-      <li>Marketplace + customization + logistics combined</li>
-      <li>Heavy dependency on production and fulfillment</li>
-      <li>Risk of overbuilding before validation</li>
-    </ul>
+          <ul className="list-disc pl-5 text-gray-600 space-y-2 max-w-3xl mb-12">
+            <li>Too many moving parts for an initial release</li>
+            <li>Marketplace + customization + logistics combined</li>
+            <li>Heavy dependency on production and fulfillment</li>
+            <li>Risk of overbuilding before validation</li>
+          </ul>
 
-    
 
-  </Container>
-</section>
+
+        </Container>
+      </section>
 
       {/* PIVOT */}
       <section className="py-24 bg-gray-50">
@@ -344,12 +344,12 @@ export default function IAVPage() {
           <p className="text-gray-600 mb-10">
             The product has been developed as a modern web application using JavaScript with Next.js (App Router) as the core framework, enabling a hybrid architecture that combines server-side and client-side rendering. The user interface is built with React and styled using TailwindCSS, allowing for a fast and responsive design system. A key component of the platform is the custom product configurator, which leverages the browser’s Canvas API to handle real-time image manipulation, including scaling, positioning, overlay application, and high-resolution export suitable for printing.
 
-For state management and initial persistence, localStorage is used to simulate a shopping cart in this MVP stage. On the backend side, Next.js API Routes handle order processing and business logic. Image handling and storage are managed through the Cloudinary API, enabling efficient upload, storage, and delivery of user-generated assets. For transactional workflows, the system integrates Stripe to process payments securely, along with webhooks to confirm successful transactions and trigger post-payment actions such as order handling. Additionally, services like Resend are used to send order notifications via email.
+            For state management and initial persistence, localStorage is used to simulate a shopping cart in this MVP stage. On the backend side, Next.js API Routes handle order processing and business logic. Image handling and storage are managed through the Cloudinary API, enabling efficient upload, storage, and delivery of user-generated assets. For transactional workflows, the system integrates Stripe to process payments securely, along with webhooks to confirm successful transactions and trigger post-payment actions such as order handling. Additionally, services like Resend are used to send order notifications via email.
 
-Overall, the application combines an interactive frontend, client-side graphics processing, and a lightweight but scalable backend architecture, designed to validate the business model while remaining ready for future expansion.
+            Overall, the application combines an interactive frontend, client-side graphics processing, and a lightweight but scalable backend architecture, designed to validate the business model while remaining ready for future expansion.
           </p>
 
-            <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h3 className="font-semibold mb-3">Frontend</h3>
               <ul className="text-gray-600 space-y-2">
@@ -382,43 +382,43 @@ Overall, the application combines an interactive frontend, client-side graphics 
 
           <div className="space-y-6 text-gray-600">
 
-  <p>
-    This project reinforced the importance of reducing product scope to focus on the core value proposition. 
-    Instead of building a complete marketplace, simplifying the concept into a configurator made it possible 
-    to validate the idea faster and with less operational complexity.
-  </p>
+            <p>
+              This project reinforced the importance of reducing product scope to focus on the core value proposition.
+              Instead of building a complete marketplace, simplifying the concept into a configurator made it possible
+              to validate the idea faster and with less operational complexity.
+            </p>
 
-  <p>
-    From a product perspective, one of the key learnings was understanding how different layers 
-    (marketplace, payments, logistics, data management) quickly compound into a complex system. 
-    Designing a product is not only about user experience, but also about defining what should be 
-    built and what should be delegated to external services.
-  </p>
+            <p>
+              From a product perspective, one of the key learnings was understanding how different layers
+              (marketplace, payments, logistics, data management) quickly compound into a complex system.
+              Designing a product is not only about user experience, but also about defining what should be
+              built and what should be delegated to external services.
+            </p>
 
-  <p>
-    On the technical side, building the configurator using the Canvas API highlighted the challenges 
-    of working with real-time graphics in the browser, especially in terms of performance, state synchronization 
-    and exporting high-resolution assets. This required balancing user experience with technical constraints.
-  </p>
+            <p>
+              On the technical side, building the configurator using the Canvas API highlighted the challenges
+              of working with real-time graphics in the browser, especially in terms of performance, state synchronization
+              and exporting high-resolution assets. This required balancing user experience with technical constraints.
+            </p>
 
-  <p>
-    The integration of external services such as Stripe and Cloudinary demonstrated the value of relying on 
-    existing infrastructure instead of reinventing complex systems. This approach allowed the product to remain 
-    lightweight while still supporting key functionalities like payments and asset management.
-  </p>
+            <p>
+              The integration of external services such as Stripe and Cloudinary demonstrated the value of relying on
+              existing infrastructure instead of reinventing complex systems. This approach allowed the product to remain
+              lightweight while still supporting key functionalities like payments and asset management.
+            </p>
 
-  <p>
-    Another key takeaway was the importance of designing systems that can evolve. Even though the MVP uses 
-    simple solutions like localStorage for state persistence, the architecture is structured in a way that 
-    allows future migration to more robust backend solutions without major redesign.
-  </p>
+            <p>
+              Another key takeaway was the importance of designing systems that can evolve. Even though the MVP uses
+              simple solutions like localStorage for state persistence, the architecture is structured in a way that
+              allows future migration to more robust backend solutions without major redesign.
+            </p>
 
-  <p>
-    Overall, the project emphasized a shift from designing interfaces to designing systems: understanding how 
-    frontend interactions, backend logic, third-party services and business operations connect to form a cohesive product.
-  </p>
+            <p>
+              Overall, the project emphasized a shift from designing interfaces to designing systems: understanding how
+              frontend interactions, backend logic, third-party services and business operations connect to form a cohesive product.
+            </p>
 
-</div>
+          </div>
         </Container>
       </section>
 
@@ -431,12 +431,12 @@ Overall, the application combines an interactive frontend, client-side graphics 
 
           <div className="grid md:grid-cols-2 gap-12">
             {projects
-  .filter((p) => p.slug !== "iav")
-  .sort(() => 0.5 - Math.random())
-  .slice(0, 2)
-  .map((p) => (
-    <ProjectCard key={p.slug} project={p} />
-))}
+              .filter((p) => p.slug !== "iav")
+              .sort(() => 0.5 - Math.random())
+              .slice(0, 2)
+              .map((p) => (
+                <ProjectCard key={p.slug} project={p} />
+              ))}
           </div>
         </Container>
       </section>
