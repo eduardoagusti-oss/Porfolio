@@ -175,7 +175,7 @@ export default function QbindPage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            <img src="/images/Responsive1.webp" className="rounded-xl" />
+            <img src="/images/responsive-1.webp" className="rounded-xl" />
             <img src="/images/ResponsiveFonts.webp" className="rounded-xl" />
           </div>
 
