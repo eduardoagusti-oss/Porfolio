@@ -8,7 +8,7 @@ export default function IAVPage() {
       {/* HERO */}
       <section
         className="h-[70vh] bg-cover bg-center relative text-white flex items-center"
-        style={{ backgroundImage: "url('/images/iavhero.webp')" }}
+        style={{ backgroundImage: "url('/images/iav-hero.webp')" }}
       >
         <Container>
           <div className="max-w-2xl">
