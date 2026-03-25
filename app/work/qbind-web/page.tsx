@@ -233,11 +233,12 @@ export default function QbindPage() {
 
           <div className="grid md:grid-cols-2 gap-12">
             {projects
-              .filter((p) => p.slug !== "qbind-web")
-              .slice(0, 2)
-              .map((p) => (
-                <ProjectCard key={p.slug} project={p} />
-              ))}
+  .filter((p) => p.slug !== "qbind-web")
+  .sort(() => 0.5 - Math.random())
+  .slice(0, 2)
+  .map((p) => (
+    <ProjectCard key={p.slug} project={p} />
+))}
           </div>
 
         </Container>
