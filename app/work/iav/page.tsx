@@ -187,12 +187,12 @@ export default function IAVPage() {
 
           <div className="grid md:grid-cols-2 gap-8">
             <img
-              src="/images/iavHome.webp"
+              src="/images/iav-home.webp"
               className="rounded-xl"
               alt="Initial full concept"
             />
             <img
-              src="/images/iavUpload.webp"
+              src="/images/iav-upload.webp"
               className="rounded-xl"
               alt="Simplified MVP configurator"
             />
@@ -200,12 +200,12 @@ export default function IAVPage() {
           <br></br>
           <div className="grid md:grid-cols-2 gap-8">
             <img
-              src="/images/iavDatos.webp"
+              src="/images/iav-datos.webp"
               className="rounded-xl"
               alt="Initial full concept"
             />
             <img
-              src="/images/iavMailCon.webp"
+              src="/images/iav-mailcon.webp"
               className="rounded-xl"
               alt="Simplified MVP configurator"
             />
