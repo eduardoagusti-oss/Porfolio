@@ -3,16 +3,23 @@
 import Container from "@/components/Container";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const linkClass = (path: string) =>
+    `transition ${
+      pathname === path
+        ? "text-blue-600 font-semibold"
+        : "hover:text-blue-600"
+    }`;
 
   return (
     <header className="fixed top-0 w-full bg-white border-b z-50">
-      
       <Container>
         <div className="flex items-center justify-between h-16">
-
           {/* logo */}
           <Link href="/" className="font-semibold text-lg leading-none">
             Eduardo Agustí
@@ -20,13 +27,18 @@ export default function Navbar() {
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
-            <Link href="/work" className="hover:text-blue-600 transition">
+            <Link href="/manifesto" className={linkClass("/manifesto")}>
+              My UX Manifesto
+            </Link>
+
+            <Link href="/work" className={linkClass("/work")}>
               Work
             </Link>
-            <Link href="/about" className="hover:text-blue-600 transition">
+
+            <Link href="/about" className={linkClass("/about")}>
               About
             </Link>
-            
+
             <a
               href="/EduardoAgusti_UXPM_2026.pdf"
               download
@@ -52,7 +64,6 @@ export default function Navbar() {
           >
             ☰
           </button>
-
         </div>
       </Container>
 
@@ -61,12 +72,27 @@ export default function Navbar() {
         <div className="md:hidden bg-white border-t">
           <Container>
             <nav className="flex flex-col gap-6 py-6 text-lg">
+              <Link
+                href="/manifesto"
+                onClick={() => setOpen(false)}
+                className={linkClass("/manifesto")}
+              >
+                My UX Manifesto
+              </Link>
 
-              <Link href="/work" onClick={() => setOpen(false)}>
+              <Link
+                href="/work"
+                onClick={() => setOpen(false)}
+                className={linkClass("/work")}
+              >
                 Work
               </Link>
 
-              <Link href="/about" onClick={() => setOpen(false)}>
+              <Link
+                href="/about"
+                onClick={() => setOpen(false)}
+                className={linkClass("/about")}
+              >
                 About
               </Link>
 
@@ -77,12 +103,10 @@ export default function Navbar() {
               >
                 Download CV
               </a>
-
             </nav>
           </Container>
         </div>
       )}
-
     </header>
   );
 }

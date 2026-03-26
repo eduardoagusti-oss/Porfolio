@@ -16,11 +16,11 @@ export default function Hero() {
           <div className="max-w-2xl">
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              UX/UI Designer
+              Building digital products end-to-end.
             </h1>
 
             <p className="text-lg md:text-xl mb-10 text-gray-200">
-              I design digital products that are clear, useful, and user-centered.
+              I combine UX, development and product thinking to design, build and iterate products in agile environments, aligning user needs, business goals and technology.
             </p>
 
             <Link

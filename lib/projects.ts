@@ -4,7 +4,7 @@ export const projects = [
   {
     slug: "iav",
     title: "IAV Marketplace",
-    desc: "Product Design · Frontend Development · MVP · 2025",
+    desc: "Product Design · Frontend Development · MVP · 2024",
     img: "/images/IAVThumbnail.webp",
   },
   {
@@ -25,5 +25,11 @@ export const projects = [
     desc: "Product Design · Design System · Figma · 2025",
     img: "/images/Cover.webp",
   },
-  
+  {
+    slug: "caixabank",
+    title: "Caixabank - Payment Splitting Experience",
+    desc: "Product Design · UX Research · Financial Services · 2026",
+    img: "/images/caixabankcover.webp",
+  },
+
 ];
