@@ -31,5 +31,11 @@ export const projects = [
     desc: "Product Design · UX Research · Financial Services · 2026",
     img: "/images/caixabankcover.webp",
   },
+  {
+    slug: "easymova",
+    title: "Easymova - From Manual Service to Scalable Digital Product",
+    desc: "Product Design · SEO · 2026",
+    img: "/images/easymova_thumbnail.webp",
+  },
 
 ];
