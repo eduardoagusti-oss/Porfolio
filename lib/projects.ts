@@ -34,7 +34,7 @@ export const projects = [
   {
     slug: "easymova",
     title: "Easymova - From Manual Service to Scalable Digital Product",
-    desc: "Product Design · SEO · 2026",
+    desc: "Product Design · Customer Journey Map · Frontend · SEO · MVP · 2026",
     img: "/images/easymova_thumbnail.webp",
   },
 
