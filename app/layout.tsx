@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Eduardo Agustí | UX/UI Designer",
@@ -40,6 +41,7 @@ export default function RootLayout({
         </main>
 
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
